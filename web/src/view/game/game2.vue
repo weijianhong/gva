@@ -2,7 +2,11 @@
   <div id="app">
     <div class="grid">
       <div v-for="(row, rowIndex) in grid" :key="rowIndex" class="row">
-        <div v-for="(cell, colIndex) in row" :key="colIndex" class="cell" @click="toggleCell(rowIndex, colIndex)" :class="{ 'green-bg': cellClicked[rowIndex][colIndex] }">
+        <div v-for="(cell, colIndex) in row"
+             :key="colIndex"
+             class="cell"
+             @click="toggleCell(rowIndex, colIndex)"
+             :class="{ 'green-bg': cellClicked[rowIndex][colIndex] }">
           {{ cell }}
         </div>
       </div>
