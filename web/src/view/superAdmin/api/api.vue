@@ -24,8 +24,9 @@
             placeholder="api组"
           />
         </el-form-item>
-        <el-form-item label="请求">
+        <el-form-item label="请求"  >
           <el-select
+
             v-model="searchInfo.method"
             clearable
             placeholder="请选择"

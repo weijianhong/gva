@@ -127,11 +127,11 @@ mysql:
     password: TFSec@2017@MYSQL
     path: 127.0.0.1
     engine: ""
-    log-mode: error
+    log-mode: debug
     max-idle-conns: 10
     max-open-conns: 100
     singular: false
-    log-zap: false
+    log-zap: true
 oracle:
     prefix: ""
     port: ""

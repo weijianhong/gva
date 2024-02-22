@@ -44,7 +44,7 @@
                   <close />
                 </el-icon>
               </p>
-              <p class="text-gray-500 mt-2 text-md">这个家伙很懒，什么都没有留下</p>
+              <p class="text-gray-500 mt-2 text-md"> </p>
             </div>
             <div class="w-full h-full text-left">
               <ul class="inline-block h-full w-full">
@@ -57,21 +57,18 @@
                 <el-tooltip
                   class="item"
                   effect="light"
-                  content="北京反转极光科技有限公司-技术部-前端事业群"
                   placement="top"
                 >
                   <li class="info-list">
                     <el-icon>
                       <data-analysis />
                     </el-icon>
-                    北京反转极光科技有限公司-技术部-前端事业群
                   </li>
                 </el-tooltip>
                 <li class="info-list">
                   <el-icon>
                     <video-camera />
                   </el-icon>
-                  中国·北京市·朝阳区
                 </li>
                 <el-tooltip
                   class="item"
@@ -83,7 +80,6 @@
                     <el-icon>
                       <medal />
                     </el-icon>
-                    GoLang/JavaScript/Vue/Gorm
                   </li>
                 </el-tooltip>
               </ul>
